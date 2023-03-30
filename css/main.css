@@ -1,1 +1,44 @@
 /* Place CSS styles here */
+
+body{
+    background-image: url(../img/crystal_ball.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-x: center;
+    background-position-y: 170px;
+
+}
+
+h1, h2, p {
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+/* Spinning Text */
+.curved-text-svg {
+  display: block;
+  margin: auto;
+  left: 10px;
+  top: 10px;
+  width: 200px;
+  height: 200px;
+  inset: 4px;
+  transform-origin: center center;
+  will-change: transform;
+  animation:spin 10s linear infinite;
+}
+
+.curved-text-path {
+    font-size:12px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight:700;
+    word-spacing:1.5;
+    letter-spacing:6.25px;
+    fill: #000;
+}
+
+@keyframes spin { 
+    100% { 
+        transform:rotate(-360deg); 
+    } 
+}
