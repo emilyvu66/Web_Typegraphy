@@ -27,9 +27,11 @@ p {
     z-index: 0;
 }
 
-img {
-    width: 120px;
-    height: auto;
+.candle {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    z-index: 1;
 }
 
 /* Spinning Text */
