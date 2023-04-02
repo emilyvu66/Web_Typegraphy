@@ -7,7 +7,6 @@ body{
     background-position-x: center;
     background-position-y: 200px;
     background-color: rgb(236, 227, 206);
-
 }
 
 h1, h2 {
@@ -21,20 +20,32 @@ p {
     font-size: 20px;
 }
 
+.tarot {
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    z-index: 0;
+}
+
+img {
+    width: 120px;
+    height: auto;
+}
+
 /* Spinning Text */
 .curved-text-svg {
-  display: block;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 90px;
-  left: 10px;
-  top: 10px;
-  width: 200px;
-  height: 200px;
-  inset: 4px;
-  transform-origin: center center;
-  will-change: transform;
-  animation:spin 10s linear infinite;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    left: 10px;
+    top: 10px;
+    width: 200px;
+    height: 200px;
+    inset: 4px;
+    transform-origin: center center;
+    will-change: transform;
+    animation:spin 10s linear infinite;
 }
 
 .curved-text-path {
