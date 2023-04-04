@@ -3,9 +3,9 @@
 body{
     background-image: url(..//img/cyrstal_ball.png);
     background-repeat: no-repeat;
-    background-size: 610px;
+    background-size: 300px;
     background-position-x: center;
-    background-position-y: 275px;
+    background-position-y: 280px;
     background-color: rgb(235, 214, 214);
 }
 
@@ -23,12 +23,13 @@ h1 {
 h2 {
     font-family: 'Libre Baskerville', serif;
     text-align: center;
+    font-size: 18px;
 }
 
 p {
     font-family: 'Libre Baskerville', serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .afraid {
@@ -60,8 +61,8 @@ p {
 
 .candle {
     position: absolute;
-    top: 500px;
-    right: 20px;
+    top: 155px;
+    right: 1px;
     z-index: 1;
 }
 
@@ -69,15 +70,15 @@ p {
 .curved-text-svg {
     display: block;
     margin: auto;
-    margin-bottom: 180px;
-    height: 400px;
+    margin-bottom: 85px;
+    height: 200px;
     animation:spin 10s linear infinite;
 }
 
 .curved-text-path {
-    font-size: 6px;
+    font-size: 15px;
     font-family: 'Berkshire Swash', cursive;
-    font-weight: 600;
+    font-weight: 100;
     word-spacing: 1;
     letter-spacing: 6px;
     fill: #132558;
